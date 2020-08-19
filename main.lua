@@ -78,7 +78,7 @@ love.window.setTitle("The Hunter Preyer") -- Title projet Game
 
 -- set Windows mode
 local width, height = love.window.getDesktopDimensions(1)
---love.window.setMode(width,height,{fullscreen=false, vsync=0})
+--love.window.setMode(width,height,{fullscreen=true, vsync=0})
 --love.window.maximize()
 
 --messageBoxIntro = love.window.showMessageBox( "Ready ?", "Cliquez ici pour jouer !".."\n".."Merci bon jeu ;)", "info", true )

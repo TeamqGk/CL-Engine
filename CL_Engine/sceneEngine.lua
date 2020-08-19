@@ -18,7 +18,7 @@ function sceneEngine:setScene(name)
     if name == self.scenes[i].name then
       self.current = self.scenes[i]
       if not self.current.module.loadScene then
-        self.current.module.load()
+        sceneEngine:load()
       end
       return
     end

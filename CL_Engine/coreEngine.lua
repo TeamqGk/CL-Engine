@@ -1,7 +1,5 @@
 cl = {}
 
-function _REQUIRE() end
-
 -- ## Utility's
 cl                  = require("CL_Engine/globalsEngine")
 cl.color            = require("CL_Engine/colorEngine")
